@@ -1,0 +1,20 @@
+Write a program to get tuple elements in a single line separated by spaces and print the sum of the elements without using sum() method.
+Sample Input:
+10 20 30
+Sample Output:
+60
+
+answer:
+def sum_without_sum_method():
+    user_input = input("8 ")
+    elements = tuple(map(int, user_input.split()))
+    total_sum = 0
+    for element in elements:
+        total_sum += element
+    print(total_sum)
+
+sum_without_sum_method()
+
+output:
+8  2
+2
